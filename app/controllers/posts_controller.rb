@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  # Reading params is a controller concern, so we don't need to expose it to the views.
   #helper_method :params
 
   def index
